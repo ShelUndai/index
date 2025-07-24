@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+.DS_Store
+ ../awx-dashboard (4)/
+        ../awx-dashboard/
+        ../bookGenerator/
+        ../conscious-parenting-tv-app/
+        ../firewall-drift-ui/
+        ../fw-ui-login-and-jobs-only/
+        ../fw-ui-updated-form-dropdows/
+        ../test_output.log
+        ../test_results.json
+        .gitignore
+        ../v0_test/
