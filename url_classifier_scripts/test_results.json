@@ -1,0 +1,891 @@
+{
+  "summary": {
+    "total_tests": 22,
+    "type_accuracy_percent": 77.3,
+    "subtype_accuracy_percent": 0.0,
+    "technology_accuracy_percent": 0.0,
+    "tests_with_subtype_expectations": 10,
+    "tests_with_technology_expectations": 7,
+    "failures_count": 15
+  },
+  "detailed_results": [
+    {
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "description": "JSON Placeholder REST API",
+      "expected": {
+        "type": "API",
+        "subtype": "REST",
+        "technologies": []
+      },
+      "actual": {
+        "type": "API",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 1.0,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://api.github.com/users/octocat",
+      "description": "GitHub REST API",
+      "expected": {
+        "type": "API",
+        "subtype": "REST",
+        "technologies": []
+      },
+      "actual": {
+        "type": "API",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 1.0,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://httpbin.org/json",
+      "description": "HTTPBin JSON endpoint",
+      "expected": {
+        "type": "API",
+        "subtype": "REST",
+        "technologies": []
+      },
+      "actual": {
+        "type": "API",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 0.99,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://reqres.in/api/users",
+      "description": "ReqRes test API",
+      "expected": {
+        "type": "API",
+        "subtype": "REST",
+        "technologies": []
+      },
+      "actual": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": false,
+        "subtype": false,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 0.95,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://api.github.com/graphql",
+      "description": "GitHub GraphQL API",
+      "expected": {
+        "type": "API",
+        "subtype": "GraphQL",
+        "technologies": []
+      },
+      "actual": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": false,
+        "subtype": false,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 0.95,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://reactjs.org",
+      "description": "React official website",
+      "expected": {
+        "type": "UI",
+        "subtype": "React",
+        "technologies": [
+          "React"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.94,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://create-react-app.dev",
+      "description": "Create React App documentation",
+      "expected": {
+        "type": "UI",
+        "subtype": "React",
+        "technologies": [
+          "React"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.94,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://angular.io",
+      "description": "Angular official website",
+      "expected": {
+        "type": "UI",
+        "subtype": "Angular",
+        "technologies": [
+          "Angular"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.9,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://vuejs.org",
+      "description": "Vue.js official website",
+      "expected": {
+        "type": "UI",
+        "subtype": "Vue.js",
+        "technologies": [
+          "Vue.js"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.9,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://nextjs.org",
+      "description": "Next.js official website",
+      "expected": {
+        "type": "UI",
+        "subtype": "Next.js",
+        "technologies": [
+          "Next.js",
+          "React"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.94,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://example.com",
+      "description": "Simple HTML website",
+      "expected": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": true,
+        "technologies": true,
+        "overall": true
+      },
+      "confidence": 0.9,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://www.google.com",
+      "description": "Google homepage",
+      "expected": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": true,
+        "technologies": true,
+        "overall": true
+      },
+      "confidence": 0.9,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://stackoverflow.com",
+      "description": "Stack Overflow",
+      "expected": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": true,
+        "technologies": true,
+        "overall": true
+      },
+      "confidence": 0.9,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://wordpress.org",
+      "description": "WordPress.org website",
+      "expected": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": [
+          "WordPress"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": true,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.9,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://nodejs.org/api/",
+      "description": "Node.js API documentation",
+      "expected": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": [
+          "Node.js"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": true,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.87,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG21/wcag.pdf",
+      "description": "PDF file",
+      "expected": {
+        "type": "FILE",
+        "subtype": null,
+        "technologies": []
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": false,
+        "subtype": true,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 0.9,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "http://github.com",
+      "description": "HTTP to HTTPS redirect",
+      "expected": {
+        "type": "REDIRECT",
+        "subtype": null,
+        "technologies": []
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": false,
+        "subtype": true,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 0.9,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://httpbin.org/status/404",
+      "description": "404 Not Found",
+      "expected": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "actual": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": true,
+        "technologies": true,
+        "overall": true
+      },
+      "confidence": 0.95,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://httpbin.org/status/500",
+      "description": "500 Internal Server Error",
+      "expected": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "actual": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": true,
+        "technologies": true,
+        "overall": true
+      },
+      "confidence": 0.95,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://thisdomaindoesnotexist12345.com",
+      "description": "Domain not found",
+      "expected": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "actual": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": true,
+        "technologies": true,
+        "overall": true
+      },
+      "confidence": 0.95,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "invalid-url-without-scheme",
+      "description": "Invalid URL format",
+      "expected": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "actual": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": true,
+        "technologies": true,
+        "overall": true
+      },
+      "confidence": 0.95,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://httpbin.org/delay/20",
+      "description": "Timeout test",
+      "expected": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "actual": {
+        "type": "API",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": false,
+        "subtype": true,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 0.99,
+      "detected_expected_techs": []
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "description": "JSON Placeholder REST API",
+      "expected": {
+        "type": "API",
+        "subtype": "REST",
+        "technologies": []
+      },
+      "actual": {
+        "type": "API",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 1.0,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://api.github.com/users/octocat",
+      "description": "GitHub REST API",
+      "expected": {
+        "type": "API",
+        "subtype": "REST",
+        "technologies": []
+      },
+      "actual": {
+        "type": "API",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 1.0,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://httpbin.org/json",
+      "description": "HTTPBin JSON endpoint",
+      "expected": {
+        "type": "API",
+        "subtype": "REST",
+        "technologies": []
+      },
+      "actual": {
+        "type": "API",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 0.99,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://reqres.in/api/users",
+      "description": "ReqRes test API",
+      "expected": {
+        "type": "API",
+        "subtype": "REST",
+        "technologies": []
+      },
+      "actual": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": false,
+        "subtype": false,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 0.95,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://api.github.com/graphql",
+      "description": "GitHub GraphQL API",
+      "expected": {
+        "type": "API",
+        "subtype": "GraphQL",
+        "technologies": []
+      },
+      "actual": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": false,
+        "subtype": false,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 0.95,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://reactjs.org",
+      "description": "React official website",
+      "expected": {
+        "type": "UI",
+        "subtype": "React",
+        "technologies": [
+          "React"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.94,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://create-react-app.dev",
+      "description": "Create React App documentation",
+      "expected": {
+        "type": "UI",
+        "subtype": "React",
+        "technologies": [
+          "React"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.94,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://angular.io",
+      "description": "Angular official website",
+      "expected": {
+        "type": "UI",
+        "subtype": "Angular",
+        "technologies": [
+          "Angular"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.9,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://vuejs.org",
+      "description": "Vue.js official website",
+      "expected": {
+        "type": "UI",
+        "subtype": "Vue.js",
+        "technologies": [
+          "Vue.js"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.9,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://nextjs.org",
+      "description": "Next.js official website",
+      "expected": {
+        "type": "UI",
+        "subtype": "Next.js",
+        "technologies": [
+          "Next.js",
+          "React"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": false,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.94,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://wordpress.org",
+      "description": "WordPress.org website",
+      "expected": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": [
+          "WordPress"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": true,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.9,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://nodejs.org/api/",
+      "description": "Node.js API documentation",
+      "expected": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": [
+          "Node.js"
+        ]
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": true,
+        "subtype": true,
+        "technologies": false,
+        "overall": false
+      },
+      "confidence": 0.87,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG21/wcag.pdf",
+      "description": "PDF file",
+      "expected": {
+        "type": "FILE",
+        "subtype": null,
+        "technologies": []
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": false,
+        "subtype": true,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 0.9,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "http://github.com",
+      "description": "HTTP to HTTPS redirect",
+      "expected": {
+        "type": "REDIRECT",
+        "subtype": null,
+        "technologies": []
+      },
+      "actual": {
+        "type": "UI",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": false,
+        "subtype": true,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 0.9,
+      "detected_expected_techs": []
+    },
+    {
+      "url": "https://httpbin.org/delay/20",
+      "description": "Timeout test",
+      "expected": {
+        "type": "ERROR",
+        "subtype": null,
+        "technologies": []
+      },
+      "actual": {
+        "type": "API",
+        "subtype": null,
+        "technologies": []
+      },
+      "correct": {
+        "type": false,
+        "subtype": true,
+        "technologies": true,
+        "overall": false
+      },
+      "confidence": 0.99,
+      "detected_expected_techs": []
+    }
+  ],
+  "test_duration_seconds": 11.663976907730103,
+  "performance_stats": {
+    "total_processed": 22,
+    "classified_by_headers": 15,
+    "classified_by_content": 1,
+    "classification_errors": 1,
+    "cache_hits": 0,
+    "validation_errors": 1,
+    "total_time_seconds": 11.62054705619812,
+    "urls_per_second": 1.8931983058633828,
+    "header_efficiency_percent": 68.18181818181817,
+    "cache_hit_rate_percent": 0.0,
+    "error_rate_percent": 4.3478260869565215,
+    "type_distribution": {
+      "API": 4,
+      "ERROR": 6,
+      "UI": 12
+    },
+    "subtype_distribution": {},
+    "technology_distribution": {},
+    "average_confidence": 0.9349999999999998,
+    "low_confidence_count": 0,
+    "low_confidence_percentage": 0.0,
+    "total_updated": 22,
+    "config_used": {
+      "max_concurrent": 20,
+      "timeout": 15,
+      "content_limit_kb": 200,
+      "enable_caching": true,
+      "min_confidence_threshold": 0.7
+    }
+  }
+}
