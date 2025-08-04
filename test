@@ -38,72 +38,29 @@
 ### Position: Software Engineer (September 2022 - Spring 2025)
 
 **Responsibilities:**
-* Served as primary UI developer for multiple high-visibility projects including Channel Banner, Custom Groups, and ITSM Stats Ticker
-* Led UI development process and mentored junior engineers in React, frontend, and UI fundamentals
-* Developed Ansible automations and provided BAU support across multiple systems
-* Transitioned to backend development including Python, Django, and FastAPI frameworks
-* Assumed technical lead responsibilities for server patching and vulnerability review/remediation
-
-**Accomplishments:**
-* Delivered Channel Announcement Banner and Custom Groups to production, drastically reducing development and maintenance time through creative plugin approaches
-* Achieved "Exceeds Expectations" rating in 2022 with manager noting rapid growth and active career development
-* Presented developed applications to leadership 3+ times including Derek's Staff Meeting and Susan's Demo Meeting
-* Completed 4-5 Mattermost webapp plugins and achieved SAFe certification in November 2022
-* Led Siren Plugin and Webapp MVP development while mentoring multiple resources including Garrett Mbaku and Lucas Zacherl
-* Became UI SME across Intelligence Engineering and Site Reliability Engineering organizations
-* Successfully transitioned to Intelligence Engineering Fortification team and learned Python for backend development
-* Assumed ATL responsibilities for PRO application, taking over from part-time colleague
-* Conducted career development coaching sessions for peers, receiving enthusiastic positive feedback
-* Upgraded Secrets Broker UI through 2 major React versions and achieved PaC testing compliance
-* Led team through Workday Career Center training, generating immediate positive manager feedback
-
----
-
-### Position: Senior Software Engineer (Spring 2025 - Present)
-
-*Note: Limited data available for this position, based on 2024 review*
-
-**Responsibilities:**
-* Balanced software engineering work with ATL duties and special projects across multiple applications
-* Served as first responder to end user issues, prioritizing customer service in software development
-* Led deployments and provided technical guidance to senior engineers when approached
-* Identified process gaps and developed solutions including communications templates for patching schedules
-* Provided support and guidance to ATLs across multiple applications
-
-**Accomplishments:**
-* Developed standardized communication processes and templates adopted by multiple teams in Q1 2024
-* Successfully conceptualized and developed Real-Time System Admin Dojo MVP, gaining leadership attention and backing from Intelligence Engineering and Quality Engineering
-* Resolved critical development roadblocks for DSS/DSE Architecture teams, securing confidential data and restoring executive-level DSS App Dashboard
-* Addressed critical Archer-identified vulnerabilities ahead of schedule, including proactive work during planned parental leave
-* Enhanced Sonatype IDE Integration and created comprehensive onboarding documentation through cross-team collaboration
-* Maintained operational continuity during parental leave while providing on-call incident resolution support
-* Recognized by management as "clear leader among his peers" with senior engineers seeking technical guidance
-* Demonstrated ability to perform with unfamiliar technology through willingness to collaborate and fast learning approach
-
-________
-
-
-### Position: Software Engineer (September 2022 - Spring 2025)
-
-**Responsibilities:**
 * Served as Application Technical Lead (ATL) for PRO application, managing technical decisions, troubleshooting user issues, and coordinating with CyberArk engineers
 * Led cross-functional UI development initiatives while mentoring junior engineers in React, frontend development, and UI fundamentals across multiple teams
 * Managed server patching schedules, vulnerability assessments, and remediation processes to ensure system security and compliance
 * Developed and maintained Python applications using Django and FastAPI frameworks for backend automation and business process integration
 * Architected and delivered high-visibility Mattermost plugins and web applications serving enterprise communication needs
 * Coordinated Agile development processes including sprint planning, story estimation, and release management across multiple projects
-* Provided technical guidance and code review for team members transitioning into UI development work
+* Served as first responder to end user issues, prioritizing customer service in software development
+* Led deployments and provided technical guidance to senior engineers when approached
 
 **Accomplishments:**
 * Successfully assumed ATL responsibilities for PRO (Secrets Broker) application, completing comprehensive knowledge transfer and becoming primary technical point of contact
 * Achieved first React-based UI application to reach PaC devops pipeline level 3 compliance, enabling daytime deployments and setting precedent for higher criticality applications
 * Led Siren Plugin and Webapp MVP development while mentoring 6+ team members (Hannah, Kayla, Ian, Nawal, Deu, Zannatul) in React and frontend technologies
-* Delivered Channel Announcement Banner and Custom Groups to production in 2022, drastically reducing development time through innovative plugin architecture using React portals
+* Delivered Channel Announcement Banner and Custom Groups to production, drastically reducing development time through innovative plugin architecture using React portals
 * Upgraded Secrets Broker UI through 2 major React versions (v16 to v18) and transitioned component library while maintaining zero downtime
+* Developed standardized communication processes and templates for user notifications during system updates, adopted across multiple teams
+* Successfully conceptualized and developed Real-Time System Admin Dojo MVP, gaining leadership attention and backing from Intelligence Engineering and Quality Engineering
+* Resolved critical development roadblocks for DSS/DSE Architecture teams, securing confidential data and restoring executive-level DSS App Dashboard
+* Addressed critical Archer-identified vulnerabilities ahead of schedule, including proactive work during planned parental leave
 * Conducted voluntary career development coaching sessions for peers using Workday Career Center, generating immediate positive feedback from management
 * Presented applications to executive leadership 3+ times including Derek's Staff Meeting and Susan's Demo Meeting, demonstrating strong communication skills
 * Completed SAFe certification and Agile@PNC training to enhance project management methodologies and estimation accuracy
-* Established standardized communication processes and templates for user notifications during system updates, adopted across multiple teams
 * Contributed 19+ story points in Python development across FAT, MOZ, and PRO applications including SQLAlchemy 2.0 upgrades and firewall automation
 * Received "Exceeds Expectations" performance ratings in 2022 and 2023, with manager noting "rapid growth" and "leadership aptitude"
 * Became go-to UI expert across Intelligence Engineering and Site Reliability Engineering organizations, regularly consulted by senior engineers
+* Enhanced Sonatype IDE Integration and created comprehensive onboarding documentation through cross-team collaboration
